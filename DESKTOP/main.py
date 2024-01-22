@@ -20,8 +20,8 @@ def recieve_image():
 
 
 window = tk.Tk()
-window.title("ESP32-WEBCAM")
-window.geometry("240x240")
+window.title("ESP32-CAM")
+window.geometry("352x288")
 
 
 image_label = tk.Label(window)

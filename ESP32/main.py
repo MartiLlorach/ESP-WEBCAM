@@ -9,8 +9,8 @@ print("udp config: " + str(desktop_address) + ":" + str(desktop_udp_port))
 
 # camera
 camera.init(0, format=camera.JPEG)
-camera.framesize(camera.FRAME_240X240)
-camera.quality(10)
+camera.framesize(camera.FRAME_CIF)
+camera.quality(30)
 print("camera initialized")
 
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
